@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/index.css">
     <title>Pelatihan Umum Front End OmahTI 2023</title>
     <script>
       tailwind.config = {
@@ -18,28 +19,6 @@
         },
       };
     </script>
-    <style>
-      @font-face {
-        font-family: "Emberly";
-        src: url("./Emberly-Bold.ttf") format("truetype");
-        font-weight: 700;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "Emberly";
-        src: url("./Emberly-Black.ttf") format("truetype");
-        font-weight: 900;
-        font-style: bold;
-      }
-
-      @font-face {
-        font-family: "Playfair Display";
-        src: url("./PlayfairDisplay-Regular.ttf") format("truetype");
-        font-weight: 400;
-        font-style: normal;
-      }
-    </style>
   </head>
   <body class="overflow-x-hidden">
     <!-- Navigation Bar -->
@@ -54,9 +33,9 @@
         <div class="border-t-2 border-[#A29D21] mx-6"></div>
       </div>
       <h1
-        class="rotate-90 break-none text-[32px] text-[#A29D21] font-fontone font-normal leading-none break-keep"
+        class="rotate-90 text-[32px] text-[#A29D21] font-fontone font-normal leading-none whitespace-nowrap"
       >
-        pramanarendra’s&nbsp;portfolio
+        pramanarendra’s portfolio
       </h1>
     </div>
 
@@ -65,17 +44,18 @@
       class="bg-[#2E2C42] h-screen w-screen flex justify-center items-center"
     >
       <img
-        class="h-[300px] absolute w-auto mt-[60vh] ml-[25vw]"
+        class="h-[300px] absolute w-auto bottom-0 ml-[25vw]"
         src="./img/TreeTwo.png"
         alt="test"
       />
       <img
-        class="h-[400px] absolute w-auto z-10 mt-[50vh] -ml-[10vw]"
+        class="h-[400px] absolute w-auto z-10 bottom-0 -ml-[10vw]"
         src="./img/Tree.png"
         alt="test"
       />
-      <div class="grid gird-rows-2 gap-4 justify-items-center fixed">
-        <p class="text-[32px] font-fonttwo text-white leading-none">
+      <!-- text -->
+      <div class="space-y-4 fixed">
+        <p class="text-[32px] text-center font-fonttwo text-white leading-none">
           I welcome you to
         </p>
         <h1
@@ -89,25 +69,25 @@
 
     <!-- Welcome -->
     <div
-      class="h-auto w-screen bg-[#090D22] relative z-20 text-[40px] grid place-content-center py-[200px]"
+      class="bg-[#090D22] relative z-20 py-[200px]"
     >
-      <p class="font-fontone text-white mx-[220px] text-center font-normal">
+      <p class="font-fontone text-white mx-[220px] text-[40px] text-center font-bold">
         Hi! my name is Rendra. As a multidisciplinary freelancer, i'm passionate
         about creating iconic digital experiences through motion, typography,
         and creative coding for clients around the world.
       </p>
       <p
-        class="pt-10 font-fonttwo text-[#A29D21] text-center text-[24px] hover:underline duration-200"
+        class="pt-10 font-fonttwo text-[#A29D21] text-center text-[24px] hover:underline"
       >
         Read More
       </p>
     </div>
 
     <!-- Catalog -->
-    <div class="h-auto w-screen bg-[#F0ECD9] z-20 relative">
+    <div class="bg-[#F0ECD9] z-20 relative">
       <!-- grid -->
       <div
-        class="grid grid-flow-row-dense lg:grid-cols-3 mx-[160px] gap-10 pt-[100px] md:grid-cols-2 grid-cols-1"
+        class="grid lg:grid-cols-3 mx-[160px] gap-10 pt-[100px] md:grid-cols-2 grid-cols-1"
       >
         <!-- text -->
         <div class="text-black">
